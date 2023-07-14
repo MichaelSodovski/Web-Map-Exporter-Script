@@ -273,7 +273,7 @@ else:
         'svgz': arcpy.mapping.ExportToSVG
     }
 
-    # RootLayer\ GroupLayer bug fix, otherwise the script fails with "java.lang.Exception: Could not service request error.
+    # RootLayer\ GroupLayer bug fix, otherwise the script fails with "java.lang.Exception: Could not service request error."
     handleRootLayers()
 
     # Export the WebMap according to the chosen format:

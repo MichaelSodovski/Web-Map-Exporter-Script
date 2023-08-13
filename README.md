@@ -4,10 +4,11 @@
 This script is designed to convert a web map to various formats such as PDF, JPG, GIF, PNG, TIFF, EPS, SVG, and SVGZ. It takes parameters for layout, format, DPI, height, width, labels, and more, and creates an output file in the specified format.
 
 ## Requirements
-- Python 2.7 or higher
-- ArcPy library
+- Python 2.7 or higher.
+- ArcPy library.
 - ArcGIS Desktop, Server, or Portal.
 - Appropriate permissions to execute scripts.
+- A series of mxd's (map exchange document) for the layout templates.
 
 ## Usage
 This script is intended to be used within an Esri environment, such as ArcGIS. To execute the script, follow these steps:

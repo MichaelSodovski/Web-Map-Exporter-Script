@@ -8,7 +8,10 @@ This script is designed to convert a web map to various formats such as PDF, JPG
 - ArcPy library
 
 ## Usage
-You can execute the script from the command line or integrate it into your existing GIS workflow. It takes parameters for the web map as JSON, output format, layout template, and other display options.
+This script is intended to be used within an Esri environment, such as ArcGIS. To execute the script, follow these steps:
+1. Create a custom toolbox in ArcGIS.
+2. Add the script to the toolbox and define the parameters as described above.
+3. Execute the script through the toolbox, either within ArcGIS Desktop or by publishing and executing it through ArcGIS Server or Portal for ArcGIS.
 
 ## Parameters
 - `Web_Map_as_JSON`: The web map definition as a JSON string.

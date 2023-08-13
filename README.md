@@ -33,3 +33,4 @@ You can execute the script from the command line or integrate it into your exist
 - Option to handle SVGZ format.
 - Ability to set up text elements like title, copyright, and author text.
 - Control the visibility of scale bar and legend.
+- Control the size and resolution of the template. (map only option) 

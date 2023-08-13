@@ -13,6 +13,13 @@ This script is intended to be used within an Esri environment, such as ArcGIS. T
 2. Add the script to the toolbox and define the parameters as described above.
 3. Execute the script through the toolbox, either within ArcGIS Desktop or by publishing and executing it through ArcGIS Server or Portal for ArcGIS.
 
+### Integration in ArcGIS
+- Open ArcToolbox and right-click to create a new toolbox.
+- Right-click on the new toolbox and choose 'Add Script...'.
+- Follow the wizard to define script properties and parameters.
+
+Once integrated, you can execute the script by double-clicking it in the toolbox and filling in the required parameters.
+
 ## Parameters
 - `Web_Map_as_JSON`: The web map definition as a JSON string.
 - `Layout_Template`: The layout template name.

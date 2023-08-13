@@ -6,6 +6,8 @@ This script is designed to convert a web map to various formats such as PDF, JPG
 ## Requirements
 - Python 2.7 or higher
 - ArcPy library
+- ArcGIS Desktop, Server, or Portal.
+- Appropriate permissions to execute scripts.
 
 ## Usage
 This script is intended to be used within an Esri environment, such as ArcGIS. To execute the script, follow these steps:
@@ -19,6 +21,7 @@ This script is intended to be used within an Esri environment, such as ArcGIS. T
 - Follow the wizard to define script properties and parameters.
 
 Once integrated, you can execute the script by double-clicking it in the toolbox and filling in the required parameters.
+
 
 ## Parameters
 - `Web_Map_as_JSON`: The web map definition as a JSON string.

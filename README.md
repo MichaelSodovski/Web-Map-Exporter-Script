@@ -12,7 +12,7 @@ This script is designed to convert a web map to various formats such as PDF, JPG
 
 ## Usage
 This script is intended to be used within an Esri environment, such as ArcGIS. To execute the script, follow these steps:
-1. Create a custom toolbox in ArcGIS. (ArcMap)
+1. Create a custom toolbox in ArcMap. (version 10.6)
 2. Add the script to the toolbox and define the parameters as described above.
 3. Execute the script through the toolbox, either within ArcGIS Desktop or by publishing and executing it through ArcGIS Server or Portal for ArcGIS.
 

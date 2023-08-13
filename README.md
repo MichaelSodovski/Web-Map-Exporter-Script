@@ -11,13 +11,21 @@ This script is designed to convert a web map to various formats such as PDF, JPG
 You can execute the script from the command line or integrate it into your existing GIS workflow. It takes parameters for the web map as JSON, output format, layout template, and other display options.
 
 ## Parameters
-- Web_Map_as_JSON: The web map definition as a JSON string.
-- Layout_Template: The layout template name.
-- Format: Output format (pdf, jpg, gif, png32, png8, tiff, eps, svg, svgz).
-- dpi: The DPI of the output image.
-- width: Width of the output image.
-- height: Height of the output image.
-- Additional parameters for labels, copyright, author text, scale, extent, etc
+- `Web_Map_as_JSON`: The web map definition as a JSON string.
+- `Layout_Template`: The layout template name.
+- `Format`: Output format (pdf, jpg, gif, png32, png8, tiff, eps, svg, svgz).
+- `label`: Additional label information.
+- `authorText`: Author text to be added to the output.
+- `copyrightText`: Copyright text to be added to the output.
+- `titleText`: Title text for the web map.
+- `preserveScale`: Preserve the scale of the web map.
+- `isScaleBarVisible`: Controls the visibility of the scale bar.
+- `scale`: Scale information for the web map.
+- `extent`: Extent information for the web map.
+- `dpi`: The DPI of the output image (e.g., 300).
+- `height`: Height of the output image.
+- `width`: Width of the output image.
+- `legendLayers`: Legend layers information.
 
 ## Features
 - Handle root layers and group layers.

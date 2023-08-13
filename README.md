@@ -19,7 +19,7 @@ You can execute the script from the command line or integrate it into your exist
 - height: Height of the output image.
 - Additional parameters for labels, copyright, author text, scale, extent, etc
 
-## Parameters
+## Features
 - Handle root layers and group layers.
 - Export to multiple formats including PNG32 and PNG8.
 - Option to handle SVGZ format.

@@ -43,7 +43,7 @@ Once integrated, you can execute the script by double-clicking it in the toolbox
 
 ## Features
 - Handle root layers and group layers.
-- Export to multiple formats including PNG32 and PNG8.
+- Export to multiple formats including PNG32 and PNG8. 
 - Option to handle SVGZ format.
 - Ability to set up text elements like title, copyright, and author text.
 - Control the visibility of scale bar and legend.
